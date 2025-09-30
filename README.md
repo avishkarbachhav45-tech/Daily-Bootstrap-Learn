@@ -5,3 +5,7 @@ A daily learning repository covering one Bootstrap topic at a time – from basi
 
 ### - Day 1 : Containers 
 Containers are a fundamental building block of Bootstrap that contain, pad, and align your content within a given device or viewport.
+
+
+### - Day 2 : Buttons
+Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
