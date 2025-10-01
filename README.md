@@ -9,3 +9,6 @@ Containers are a fundamental building block of Bootstrap that contain, pad, and 
 
 ### - Day 2 : Buttons
 Use Bootstrap’s custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.
+
+### - Day 3 : Badges
+Documentation and examples for badges, our small count and labeling component.
