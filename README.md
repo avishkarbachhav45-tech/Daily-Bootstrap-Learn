@@ -17,3 +17,7 @@ Documentation and examples for badges, our small count and labeling component.
 
 ### - Day 4 : Alerts
 Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.
+
+
+### - Day 5 : Cards
+Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.
