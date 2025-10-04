@@ -21,3 +21,7 @@ Provide contextual feedback messages for typical user actions with the handful o
 
 ### - Day 5 : Cards
 Bootstrap’s cards provide a flexible and extensible content container with multiple variants and options.
+
+
+### - Day 6 : Images
+Documentation and examples for opting images into responsive behavior (so they never become wider than their parent) and add lightweight styles to them—all via classes.
