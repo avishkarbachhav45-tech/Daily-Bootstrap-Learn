@@ -25,3 +25,7 @@ Bootstrap’s cards provide a flexible and extensible content container with mul
 
 ### - Day 6 : Images
 Documentation and examples for opting images into responsive behavior (so they never become wider than their parent) and add lightweight styles to them—all via classes.
+
+
+### - Day 7 : Tables
+Documentation and examples for opt-in styling of tables (given their prevalent use in JavaScript plugins) with Bootstrap.
