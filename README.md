@@ -29,3 +29,7 @@ Documentation and examples for opting images into responsive behavior (so they n
 
 ### - Day 7 : Tables
 Documentation and examples for opt-in styling of tables (given their prevalent use in JavaScript plugins) with Bootstrap.
+
+
+### - Day 8 : Carousel
+A slideshow component for cycling through elements—images or slides of text—like a carousel.
