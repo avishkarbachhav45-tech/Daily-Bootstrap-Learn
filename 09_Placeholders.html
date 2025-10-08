@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.png">
+    <title>BS-Placeholders</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Create placeholders with the .placeholder class and a grid column class (e.g., .col-6) to set the width. -->
+    <div class="container text-center">
+        <h2>Placeholder Example</h2><br>
+        <p aria-hidden="true">
+            <span class="placeholder col-6"></span>
+        </p>
+
+        <a class="btn btn-primary disabled placeholder col-4" aria-disabled="true">This is placeholder</a>
+    </div>
+    <br><hr>
+
+    <!-- You can change the width through grid column classes, width utilities, or inline styles. -->
+    <div class="container text-center">
+        <h2>Width</h2><br>
+        <span class="placeholder col-6"></span>
+        <span class="placeholder w-75"></span>
+        <span class="placeholder" style="width: 25%;"></span></a>
+    </div>
+    <br><hr>
+
+    <!-- By default, the placeholder uses currentColor. This can be overridden with a custom color or utility class. -->
+    <div class="container text-center">
+        <h2>Color</h2><br>
+        <span class="placeholder col-12"></span>
+
+        <span class="placeholder col-12 bg-primary"></span>
+        <span class="placeholder col-12 bg-secondary"></span>
+        <span class="placeholder col-12 bg-success"></span>
+        <span class="placeholder col-12 bg-danger"></span>
+        <span class="placeholder col-12 bg-warning"></span>
+        <span class="placeholder col-12 bg-info"></span>
+        <span class="placeholder col-12 bg-light"></span>
+        <span class="placeholder col-12 bg-dark"></span>
+    </div>
+    <br><hr>
+
+    <!-- Animate placeholders with .placeholder-glow or .placeholder-wave to better convey the perception of something being actively loaded. -->
+    <div class="container text-center">
+        <h2>Animation</h2><br>
+        <p class="placeholder-glow">
+            <span class="placeholder col-12"></span>
+        </p>
+
+        <p class="placeholder-wave">
+            <span class="placeholder col-12"></span>
+        </p>
+    </div>
+    <br><hr>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
