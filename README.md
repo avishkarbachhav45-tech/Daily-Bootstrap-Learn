@@ -33,3 +33,7 @@ Documentation and examples for opt-in styling of tables (given their prevalent u
 
 ### - Day 8 : Carousel
 A slideshow component for cycling through elements—images or slides of text—like a carousel.
+
+
+### - Day 9 : Placeholders
+Use loading placeholders (skeleton loaders) for your components or pages to indicate something may still be loading.
