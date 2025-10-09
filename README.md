@@ -37,3 +37,7 @@ A slideshow component for cycling through elements—images or slides of text—
 
 ### - Day 9 : Placeholders
 Use loading placeholders (skeleton loaders) for your components or pages to indicate something may still be loading.
+
+
+### - Day 10 : Color and Background
+Set a background color with contrasting foreground color.
