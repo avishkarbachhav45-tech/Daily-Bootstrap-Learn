@@ -45,3 +45,7 @@ Set a background color with contrasting foreground color.
 
 ### - Day 11 : Colored Links
 Colored links with hover states
+
+
+### - Day 12 : Select
+Customize the native <select>s with custom CSS that changes the element’s initial appearance.
