@@ -41,3 +41,7 @@ Use loading placeholders (skeleton loaders) for your components or pages to indi
 
 ### - Day 10 : Color and Background
 Set a background color with contrasting foreground color.
+
+
+### - Day 11 : Colored Links
+Colored links with hover states
