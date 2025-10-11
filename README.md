@@ -49,3 +49,7 @@ Colored links with hover states
 
 ### - Day 12 : Select
 Customize the native <select>s with custom CSS that changes the element’s initial appearance.
+
+
+### - Day 13 : Form Controls
+Give textual form controls like <input>s and <textarea>s an upgrade with custom styles, sizing, focus states, and more.
