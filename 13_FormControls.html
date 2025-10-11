@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.png">
+    <title>BS-Form Controls</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+    <!-- Form controls are styled with a mix of Sass and CSS variables, allowing them to adapt to color modes and support any customization method. -->
+    <div class="container text-center">
+        <h2>Example</h2><br>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+    </div>
+    <br><hr>
+
+    <!-- Set heights using classes like .form-control-lg and .form-control-sm. -->
+    <div class="container text-center">
+        <h2>Sizing</h2><br>
+        <input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" aria-label=".form-control-lg example">
+        <input class="form-control" type="text" placeholder="Default input" aria-label="default input example">
+        <input class="form-control form-control-sm" type="text" placeholder=".form-control-sm" aria-label=".form-control-sm example">
+    </div>
+    <br><hr>
+
+    <!-- Block-level or inline-level form text can be created using .form-text. -->
+    <div class="container text-center">
+        <h2>Form Text</h2><br>
+        <label for="inputPassword5" class="form-label">Password</label>
+        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+            Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+        </div>
+    </div>
+    <br><hr>
+
+    <!-- File inputs. -->
+    <div class="container text-center">
+        <h2>File Input</h2><br>
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+        </div>
+        <div class="mb-3">
+            <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+            <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+        <div class="mb-3">
+            <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+            <input class="form-control" type="file" id="formFileDisabled" disabled>
+        </div>
+        <div class="mb-3">
+            <label for="formFileSm" class="form-label">Small file input example</label>
+            <input class="form-control form-control-sm" id="formFileSm" type="file">
+        </div>
+        <div>
+            <label for="formFileLg" class="form-label">Large file input example</label>
+            <input class="form-control form-control-lg" id="formFileLg" type="file">
+        </div>
+    </div>
+    <br><hr>
+
+    <!-- Set the type="color" and add .form-control-color to the <input>. We use the modifier class to set fixed heights and override some inconsistencies between browsers. -->
+    <div class="container text-center">
+        <h2>Color</h2><br>
+        <label for="exampleColorInput" class="form-label">Color picker</label>
+        <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
+    </div>
+    <br><hr>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
