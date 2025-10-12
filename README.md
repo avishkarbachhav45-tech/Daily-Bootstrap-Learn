@@ -51,9 +51,5 @@ Colored links with hover states
 Customize the native <select>s with custom CSS that changes the element’s initial appearance.
 
 
-### - Day 13 : Form Controls
-Give textual form controls like <input>s and <textarea>s an upgrade with custom styles, sizing, focus states, and more.
-
-
 ### - Day 14 : Checks
 Create consistent cross-browser and cross-device checkboxes.
