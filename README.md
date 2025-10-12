@@ -48,7 +48,7 @@ Colored links with hover states
 
 
 ### - Day 12 : Select
-Customize the native <select>s with custom CSS that changes the element’s initial appearance.
+Customize the native select tag   with custom CSS that changes the element’s initial appearance.
 
 
 ### - Day 13 : Form Controls
