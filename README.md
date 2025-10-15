@@ -56,8 +56,12 @@ Give textual form controls like <input>s and <textarea>s an upgrade with custom 
 
 
 ### - Day 14 : Checks
-Create consistent cross-browser and cross-device checkboxes.
+Create consistent cross-browser and cross-device checkboxes with our completely rewritten checks component.
 
 
 ### - Day 15 : Shadows
 Add or remove shadows to elements with box-shadow utilities.
+
+
+### - Day 16 : Radios
+Create consistent cross-browser and cross-device radios with our completely rewritten checks component.
