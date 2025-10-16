@@ -65,3 +65,7 @@ Add or remove shadows to elements with box-shadow utilities.
 
 ### - Day 16 : Radios
 Create consistent cross-browser and cross-device radios with our completely rewritten checks component.
+
+
+### - Day 17 : Range
+Use our custom range inputs for consistent cross-browser styling and built-in customization.
