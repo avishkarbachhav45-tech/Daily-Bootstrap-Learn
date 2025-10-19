@@ -77,3 +77,7 @@ Indicate the current page’s location within a navigational hierarchy that auto
 
 ### - Day 19 : Progress
 Documentation and examples for using Bootstrap custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.
+
+
+### - Day 20 : Close Button
+A generic close button for dismissing content like modals and alerts.
