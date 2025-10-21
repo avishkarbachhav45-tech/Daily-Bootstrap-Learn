@@ -83,5 +83,9 @@ Documentation and examples for using Bootstrap custom progress bars featuring su
 A generic close button for dismissing content like modals and alerts.
 
 
-### - Day 21 : Icon Link`
+### - Day 21 : Icon Link
 Quickly create stylized hyperlinks with Bootstrap Icons or other icons.
+
+
+### - Day 22 : Stacks
+Shorthand helpers that build on top of our flexbox utilities to make component layout faster and easier than ever.
