@@ -89,3 +89,7 @@ Quickly create stylized hyperlinks with Bootstrap Icons or other icons.
 
 ### - Day 22 : Stacks
 Shorthand helpers that build on top of our flexbox utilities to make component layout faster and easier than ever.
+
+
+### - Day 23 : Spinners
+Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.
