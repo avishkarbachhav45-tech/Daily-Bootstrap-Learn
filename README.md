@@ -93,3 +93,7 @@ Shorthand helpers that build on top of our flexbox utilities to make component l
 
 ### - Day 23 : Spinners
 Indicate the loading state of a component or page with Bootstrap spinners, built entirely with HTML, CSS, and no JavaScript.
+
+
+### - Day 24 : Button Group
+Group a series of buttons together on a single line or stack them in a vertical column.
