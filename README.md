@@ -97,3 +97,7 @@ Indicate the loading state of a component or page with Bootstrap spinners, built
 
 ### - Day 24 : Button Group
 Group a series of buttons together on a single line or stack them in a vertical column.
+
+
+### - Day 25 : Pagination
+Group a series of buttons together on a single line or stack them in a vertical column.
