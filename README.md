@@ -100,4 +100,8 @@ Group a series of buttons together on a single line or stack them in a vertical 
 
 
 ### - Day 25 : Pagination
-Group a series of buttons together on a single line or stack them in a vertical column.
+Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.
+
+
+### - Day 26 : Scrollspy
+Automatically update Bootstrap navigation or list group components based on scroll position to indicate which link is currently active in the viewport.
