@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.png">
+    <title>BS-Scrollspy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll the area below the navbar and watch the active class change. -->
+    <h2>Example</h2><br>
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">First</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">Second</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+        <h4 id="scrollspyHeading1">First heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum placeat sapiente, earum explicabo, voluptatibus omnis cum eaque vel ipsam molestias voluptates. Fugit ipsam, illo animi nam repellat in unde omnis!</p>
+        <h4 id="scrollspyHeading2">Second heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe debitis nulla fugit dicta qui optio hic corporis repellendus quasi laudantium fuga quibusdam nostrum, minus enim laborum id deleniti consectetur accusamus.</p>
+        <h4 id="scrollspyHeading3">Third heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum ad assumenda labore accusamus totam? Quos sed adipisci itaque culpa, ullam error repellendus facilis velit saepe impedit tempore ut porro esse?</p>
+        <h4 id="scrollspyHeading4">Fourth heading</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur possimus ratione dolor, hic blanditiis velit nam non. Modi accusantium, omnis odit sunt explicabo, eius provident reiciendis architecto magnam ab quod.</p>
+        <h4 id="scrollspyHeading5">Fifth heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fuga veniam soluta velit ut, sint quos. Dolor vero laboriosam nam, natus nostrum molestiae doloribus est deserunt fugit perferendis odit optio.</p>
+    </div>
+    <br><hr>
+
+    <!-- Scrollspy also works with nested .navs. If a nested .nav is .active, its parents will also be .active.  -->
+    <h2>Nested Nav</h2><br>
+    <div class="row">
+        <div class="col-4">
+            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+                <nav class="nav nav-pills flex-column">
+                    <a class="nav-link" href="#item-1">Item 1</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ms-3 my-1" href="#item-1-1">Item 1-1</a>
+                        <a class="nav-link ms-3 my-1" href="#item-1-2">Item 1-2</a>
+                    </nav>
+                    <a class="nav-link" href="#item-2">Item 2</a>
+                    <a class="nav-link" href="#item-3">Item 3</a>
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link ms-3 my-1" href="#item-3-1">Item 3-1</a>
+                        <a class="nav-link ms-3 my-1" href="#item-3-2">Item 3-2</a>
+                    </nav>
+                </nav>
+            </nav>
+        </div>
+
+        <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+            <div id="item-1">
+                <h4>Item 1</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, veniam ad fugiat esse, ratione neque dolorem quia enim qui illum doloribus! Veniam neque voluptate tenetur deleniti dolorum architecto doloremque aut.</p>
+            </div>
+            <div id="item-1-1">
+                <h5>Item 1-1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quisquam, debitis nostrum autem nesciunt blanditiis reiciendis consectetur vitae est maiores nihil optio et dignissimos iste molestiae pariatur perspiciatis. Et, est?</p>
+            </div>
+            <div id="item-1-2">
+                <h5>Item 1-2</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quisquam, debitis nostrum autem nesciunt blanditiis reiciendis consectetur vitae est maiores nihil optio et dignissimos iste molestiae pariatur perspiciatis. Et, est?</p>
+            </div>
+            <div id="item-2">
+                <h4>Item 2</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quisquam, debitis nostrum autem nesciunt blanditiis reiciendis consectetur vitae est maiores nihil optio et dignissimos iste molestiae pariatur perspiciatis. Et, est?</p>
+            </div>
+            <div id="item-3">
+                <h4>Item 3</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quisquam, debitis nostrum autem nesciunt blanditiis reiciendis consectetur vitae est maiores nihil optio et dignissimos iste molestiae pariatur perspiciatis. Et, est?</p>
+            </div>
+            <div id="item-3-1">
+                <h5>Item 3-1</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quisquam, debitis nostrum autem nesciunt blanditiis reiciendis consectetur vitae est maiores nihil optio et dignissimos iste molestiae pariatur perspiciatis. Et, est?</p>
+            </div>
+            <div id="item-3-2">
+                <h5>Item 3-2</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quisquam, debitis nostrum autem nesciunt blanditiis reiciendis consectetur vitae est maiores nihil optio et dignissimos iste molestiae pariatur perspiciatis. Et, est?</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <br><hr>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
