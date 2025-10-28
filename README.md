@@ -105,3 +105,7 @@ Documentation and examples for showing pagination to indicate a series of relate
 
 ### - Day 26 : Scrollspy
 Automatically update Bootstrap navigation or list group components based on scroll position to indicate which link is currently active in the viewport.
+
+
+### - Day 27 : Collapse
+Toggle the visibility of content across your project with a few classes and our JavaScript plugins.
