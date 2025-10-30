@@ -109,3 +109,6 @@ Automatically update Bootstrap navigation or list group components based on scro
 
 ### - Day 27 : Collapse
 Toggle the visibility of content across your project with a few classes and our JavaScript plugins.
+
+### - Day 28 : Gutters
+Gutters are the padding between your columns, used to responsively space and align content in the Bootstrap grid system.
