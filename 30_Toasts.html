@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.png">
+    <title>BS-Toasts</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Basic</h2><br>
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+    <br><hr>
+
+    <div class="container">
+        <h2>Translucent</h2><br>
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="..." class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small class="text-body-secondary">11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+    <br><hr>
+
+    <div class="container">
+        <h2>Stacking</h2><br>
+        <div class="toast-container position-static">
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="..." class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small class="text-body-secondary">just now</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    See? Just like this.
+                </div>
+            </div>
+
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                <div class="toast-header">
+                    <img src="..." class="rounded me-2" alt="...">
+                    <strong class="me-auto">Bootstrap</strong>
+                    <small class="text-body-secondary">2 seconds ago</small>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                </div>
+                <div class="toast-body">
+                    Heads up, toasts will stack automatically
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><hr>
+
+    <div class="container">
+        <h2>Custom Content</h2><br>
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+                <div class="mt-2 pt-2 border-top">
+                    <button type="button" class="btn btn-primary btn-sm">Take action</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><hr>
+
+    <div class="container">
+        <h2>Placement</h2><br>
+        <div aria-live="polite" aria-atomic="true" class="position-relative">
+            <div class="toast-container top-0 end-0 p-3">
+                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="..." class="rounded me-2" alt="...">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small class="text-body-secondary">just now</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        See? Just like this.
+                    </div>
+                </div>
+
+                <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <img src="..." class="rounded me-2" alt="...">
+                        <strong class="me-auto">Bootstrap</strong>
+                        <small class="text-body-secondary">2 seconds ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        Heads up, toasts will stack automatically
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><hr>
+
+    <!-- ✅ Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ✅ Auto-show Toasts Script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toastElList = document.querySelectorAll('.toast');
+            toastElList.forEach((toastEl, index) => {
+                const toast = new bootstrap.Toast(toastEl, {
+                    delay: 2500 + index * 1000,
+                    autohide: true
+                });
+
+                // Show each toast one by one
+                setTimeout(() => {
+                    toast.show();
+                }, index * 1000);
+            });
+        });
+    </script>
+
+</body>
+</html>
