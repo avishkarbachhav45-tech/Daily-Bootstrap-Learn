@@ -116,3 +116,7 @@ Gutters are the padding between your columns, used to responsively space and ali
 
 ### - Day 29 : Drop Downs
 Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.
+
+
+### - Day 30 : Toasts
+Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.
