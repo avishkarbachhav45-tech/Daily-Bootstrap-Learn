@@ -120,3 +120,7 @@ Toggle contextual overlays for displaying lists of links and more with the Boots
 
 ### - Day 30 : Toasts
 Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.
+
+
+### - Day 31 : Input Groups
+Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.
