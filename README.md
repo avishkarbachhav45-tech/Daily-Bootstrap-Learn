@@ -128,3 +128,7 @@ Easily extend form controls by adding text, buttons, or button groups on either 
 
 ### - Day 32 : Opacity
 Control the opacity of elements.
+
+
+### - Day 33 : Color and Background
+Set a background color with contrasting foreground color.
