@@ -132,3 +132,7 @@ Control the opacity of elements.
 
 ### - Day 33 : Color and Background
 Set a background color with contrasting foreground color.
+
+
+### - Day 33 : Grid
+Use our powerful mobile-first flexbox grid to build layouts of all shapes and sizes thanks to a twelve column system, six default responsive tiers, Sass variables and mixins, and dozens of predefined classes.
