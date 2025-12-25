@@ -139,3 +139,6 @@ Use our powerful mobile-first flexbox grid to build layouts of all shapes and si
 
 ### - Day 35 : Borders
 Use border utilities to quickly style the border and border-radius of an element. Great for images, buttons, or any other element.
+
+### - Day 36 : Colors
+Convey meaning through color with a handful of color utility classes. Includes support for styling links with hover states, too.
