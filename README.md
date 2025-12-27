@@ -142,3 +142,6 @@ Use border utilities to quickly style the border and border-radius of an element
 
 ### - Day 36 : Colors
 Convey meaning through color with a handful of color utility classes. Includes support for styling links with hover states, too.
+
+### - Day 37 : Links
+Link utilities are used to stylize your anchors to adjust their color, opacity, underline offset, underline color, and more.
