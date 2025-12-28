@@ -145,3 +145,6 @@ Convey meaning through color with a handful of color utility classes. Includes s
 
 ### - Day 37 : Links
 Link utilities are used to stylize your anchors to adjust their color, opacity, underline offset, underline color, and more.
+
+### - Day 38 : Overflow
+Use these shorthand utilities for quickly configuring how content overflows an element.
