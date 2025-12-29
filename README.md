@@ -148,3 +148,6 @@ Link utilities are used to stylize your anchors to adjust their color, opacity, 
 
 ### - Day 38 : Overflow
 Use these shorthand utilities for quickly configuring how content overflows an element.
+
+### - Day 39 : Object Fit
+Use the object fit utilities to modify how the content of a replaced element, such as an img or video, should be resized to fit its container.
