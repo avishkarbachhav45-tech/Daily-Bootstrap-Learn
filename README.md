@@ -151,3 +151,6 @@ Use these shorthand utilities for quickly configuring how content overflows an e
 
 ### - Day 39 : Object Fit
 Use the object fit utilities to modify how the content of a replaced element, such as an img or video, should be resized to fit its container.
+
+### - Day 40 : Text
+Documentation and examples for common text utilities to control alignment, wrapping, weight, and more.
