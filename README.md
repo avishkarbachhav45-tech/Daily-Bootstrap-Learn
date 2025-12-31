@@ -154,3 +154,6 @@ Use the object fit utilities to modify how the content of a replaced element, su
 
 ### - Day 40 : Text
 Documentation and examples for common text utilities to control alignment, wrapping, weight, and more.
+
+### - Day 41 : Interactions
+Utility classes that change how users interact with contents of a website.
